@@ -19,9 +19,9 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   numberText: {
+    fontWeight: "bold",
     color: Colors.accent500,
     fontSize: 36,
-    fontWeight: "bold",
   },
 });
 export default NumberContainer;

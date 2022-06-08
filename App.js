@@ -1,6 +1,7 @@
 import { StyleSheet, ImageBackground, SafeAreaView } from "react-native";
 import StartGameScreen from "./screens/StartGameScreen";
 import { LinearGradient } from "expo-linear-gradient";
+
 import { useState } from "react";
 import GameScreen from "./screens/GameScreen";
 import Colors from "./constens/colors";
@@ -44,7 +45,7 @@ export default function App() {
     </LinearGradient>
   );
 }
-1;
+
 const styles = StyleSheet.create({
   rootScreen: {
     flex: 1,
